@@ -1,0 +1,106 @@
+/* add fonts*/
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*{
+  box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bentham', Times New Roman, sans-serif;
+    color: #fff;
+    background: #43061F;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+header {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Fjalla One', Impact, serif;
+  font-size: 3rem;
+  margin: 0rem;
+  padding: 0 3rem 0 3rem;
+}
+
+article {
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  background: #A2547D;
+
+}
+
+#spotlight {
+  align-items: center;
+  max-width: 600px;
+}
+
+#spotlight p {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+#albumCovers {
+  justify-content: space-between;
+}
+
+.track p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+  align-items: center;
+}
+
+footer {
+  padding: 0 1rem 1rem 1rem;
+}
+
+
+a:link {
+  color: #fff;
+}
+a:visited {
+  color: #000;
+}
+a:focus {
+  color: #000;
+}
+a:hover {
+  color: #C5DBF1;
+}
+a:active {
+  color: #FBC1FA;
+}
+
+footer a:visited {
+  color: #ECFFD6;
+}
+
+@media screen and (max-width: 675px) {
+  article {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    padding: 0;
+  }
+
+  #albumCovers {
+    max-width: 50%
+  }
+}

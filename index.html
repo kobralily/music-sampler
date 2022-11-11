@@ -11,50 +11,82 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Fjalla+One&display=swap" rel="stylesheet">
 
-
 	<link href="styles/main.css" rel="stylesheet">
 </head>
 
 <body>
+
+<div id="container">
   <header>
-    <h1>Melanie Martinez Shakes Up the Pop World</h1>
+    <h1>Melanie Martinez Shakes Up the Pop World in Style</h1>
   </header>
   <article>
 
     <img src="images/melanie_martinez_concert.jpeg" alt="Photo of Melanie Martinez at the Carioca Club concert">
+    <div id="spotlight">
     <p>This is Melanie Martinez performing at the Carioca Club in 2015, Photo by <a href="https://creativecommons.org/licenses/by-sa/2.0">Yann Cerri</a>, via Wikimedia Commons</p>
-    <p>Melanie Martinez is an American singer/songwriter and alternative pop icon. After an amazing run on hit TV show <em>The Voice</em>, Martinez developed her unique lolita-style persona. She's easily recognizable from her bright pink fashion and half-dyed hair. Martinez's official debut single, Dollhouse, showcased her talent for combining light, childish topics with dark, eerie undertones. Many of her songs reflect personal experiences throughout her life, particularly moments in her school-age years and the bullying she faced. Her first album has elementary-school nostalgia, and her latest full album, K-12, spoke more on her high school years. Additionally, Martinez's K-12 album has a full-length film to showcase a story behind the songs in the album, which can be found in its entirety on YouTube.</p>
+    <p>Melanie Martinez is an American singer/songwriter and alternative pop icon. After an amazing run on hit TV show <em>The Voice</em>, Martinez developed her unique lolita-style persona. She's easily recognizable from her bright pink fashion and half-dyed hair. Martinez's official debut single, Dollhouse, showcased her talent for combining light, childish topics with dark, eerie undertones. </p>
+    <p>Many of her songs reflect personal experiences throughout her life, particularly moments in her school-age years and the bullying she faced. Her first album has elementary-school nostalgia, and her latest full album, K-12, spoke more on her high school years. Additionally, Martinez's K-12 album has a full-length film to showcase a story behind the songs in the album, which can be found in its entirety on YouTube.</p>
+    </div>
 
-    <img src="images/after_school_album.jpeg" alt="Album cover: After School">
-    <img src="images/k-12_album.jpeg" alt="Album cover: K-12">
-    <img src="images/crybaby_album.jpeg" alt="Album cover: Crybaby">
-    <img src="images/dollhouse_album.jpeg" alt="Album cover: Dollhouse">
+    <div id="albumCovers">
+      <img id="afterSchool" class="pics" src="images/after_school_album.jpeg" alt="Album cover: After School">
 
-    <audio id="soundtrack" controls="" preload="auto">
-	     <source src="audio/cake_clip.mp3" type="audio/mp3">
-	     <source src="audio/cake_clip.ogg" type="audio/ogg">
-    </audio>
+      <img id="k_12" class="pics" src="images/k-12_album.jpeg" alt="Album cover: K-12">
 
-    <audio id="soundtrack" controls="" preload="auto">
-	     <source src="audio/carousel_clip.mp3" type="audio/mp3">
-	     <source src="audio/carousel_clip.ogg" type="audio/ogg">
-    </audio>
+      <img id="crybaby" class="pics" src="images/crybaby_album.jpeg" alt="Album cover: Crybaby">
 
-    <audio id="soundtrack" controls="" preload="auto">
-	     <source src="audio/nurses_office_clip.mp3" type="audio/mp3">
-	     <source src="audio/nurses_office_clip.ogg" type="audio/ogg">
-    </audio>
+      <img id="dollhouse" class="pics" src="images/dollhouse_album.jpeg" alt="Album cover: Dollhouse">
+    </div>
 
-    <audio id="soundtrack" controls="" preload="auto">
+
+    <div id="testMe" class="track">
+      <audio controls="" preload="auto">
 	     <source src="audio/test_me_clip.mp3" type="audio/mp3">
 	     <source src="audio/test_me_clip.ogg" type="audio/ogg">
-    </audio>
+      </audio>
+
+      <p>Song: Test Me</p>
+    </div>
+
+    <div id="carousel" class="track">
+      <audio controls="" preload="auto">
+	     <source src="audio/carousel_clip.mp3" type="audio/mp3">
+	     <source src="audio/carousel_clip.ogg" type="audio/ogg">
+      </audio>
+
+      <p>Song: Carousel</p>
+    </div>
+
+    <div id="cake" class="track">
+      <audio controls="" preload="auto">
+	     <source src="audio/cake_clip.mp3" type="audio/mp3">
+	     <source src="audio/cake_clip.ogg" type="audio/ogg">
+      </audio>
+
+      <p>Song: Cake</p>
+    </div>
+
+    <div id="nursesOffice" class="track">
+      <audio controls="" preload="auto">
+	     <source src="audio/nurses_office_clip.mp3" type="audio/mp3">
+	     <source src="audio/nurses_office_clip.ogg" type="audio/ogg">
+      </audio>
+
+      <p>Song: Nurse's Office</p>
+    </div>
+
+  </article>
 
   <footer>
     <p>This page was made by Olivia Giraldo. Find more information on Melanie Martinez <a href="https://www.melaniemartinezmusic.com/">here.</a></p>
   </footer>
 
-  </article>
-  <script src="scripts/main.js"></script>
+
+
+</div>
+
+  <script src="js/main.js"></script>
+
 </body>
 </html>
